@@ -10,7 +10,13 @@ function formatarValor(valor) {
 }
 
 function carregarPainel() {
-    document.getElementById("dataAtualizacao").textContent = `Última atualização: ${ultimaAtualizacao}`;
+    // Atualiza a data
+    document.getElementById("dataAtualizacao").textContent = `Última atualização: ${ ultimaAtualizacao }`;
+
+    // Zera o total geral antes de começar
+    totalGeralGastos = 0;
+    empresasDiv.innerHTML = "";
+
     dadosEmpresas.forEach(empresa => {
         const div = document.createElement('div');
         div.className = 'empresa';
@@ -22,36 +28,39 @@ function carregarPainel() {
         totalGeralGastos += totalGastos;
 
         div.innerHTML = `
-      <h2>${empresa.nome}</h2>
+          <h2>${empresa.nome}</h2>
 
-      <section>
-        <h3>Depósitos</h3>
-        <table>
-          <tr><th>Data</th><th>Valor (R$)</th></tr>
-          ${empresa.depositos.map(dep => `
-            <tr><td>${dep.data}</td><td>${formatarValor(dep.valor)}</td></tr>
-          `).join('')}
-        </table>
-      </section>
+          <section>
+            <h3>Depósitos</h3>
+            <table>
+              <tr><th>Data</th><th>Valor (R$)</th></tr>
+              ${empresa.depositos.map(dep => `
+                <tr><td>${dep.data}</td><td>${formatarValor(dep.valor)}</td></tr>
+              `).join('')}
+            </table>
+          </section>
 
-      <section>
-        <h3>Gastos</h3>
-        <table>
-          <tr><th>Data</th><th>Valor (R$)</th><th>Descrição</th></tr>
-          ${empresa.gastos.map(g => `
-            <tr><td>${g.data}</td><td>${formatarValor(g.valor)}</td><td>${g.descricao}</td></tr>
-          `).join('')}
-        </table>
-      </section>
+          <section>
+            <h3>Gastos</h3>
+            <table>
+              <tr><th>Data</th><th>Valor (R$)</th><th>Descrição</th></tr>
+              ${empresa.gastos.map(g => `
+                <tr><td>${g.data}</td><td>${formatarValor(g.valor)}</td><td>${g.descricao}</td></tr>
+              `).join('')}
+            </table>
+          </section>
 
-      <div class="total-empresa">Total de gastos: ${formatarValor(totalGastos)}</div>
-      <div class="saldo">Saldo Atual: ${formatarValor(saldo)}</div>
-    `;
+          <div class="resumo-financeiro">
+            <div class="depositado">💵 Valor Adicionado: ${formatarValor(totalDepositos)}</div>
+            <div class="total-empresa">💸 Total de Gastos: ${formatarValor(totalGastos)}</div>
+            <div class="saldo">📊 Saldo Atual: ${formatarValor(saldo)}</div>
+          </div>
+        `;
 
         empresasDiv.appendChild(div);
     });
 
-    totalGeralDiv.innerHTML = `💰 Total geral de gastos: ${formatarValor(totalGeralGastos)}`;
+    totalGeralDiv.innerHTML = `💰 Total Geral de Gastos: ${ formatarValor(totalGeralGastos) }`;
 }
 
 // Login simples
