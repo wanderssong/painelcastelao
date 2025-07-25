@@ -4,154 +4,32 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login - Painel de Controle</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', sans-serif;
-            box-sizing: border-box;
-        }
-
-        body {
-            height: 100vh;
-            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            perspective: 1000px;
-        }
-
-        /* Partículas em movimento (estrelas) */
-        body::before {
-            content: "";
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background-image: radial-gradient(white 1px, transparent 1px);
-            background-size: 20px 20px;
-            animation: starMove 60s linear infinite;
-            opacity: 0.05;
-            z-index: 0;
-        }
-
-        @keyframes starMove {
-            0% {
-                transform: translate(0, 0);
-            }
-
-            100% {
-                transform: translate(-100px, -100px);
-            }
-        }
-
-        .login-container {
-            z-index: 1;
-            background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(25px);
-            border-radius: 25px;
-            padding: 50px 35px;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.05);
-            width: 90%;
-            max-width: 420px;
-            text-align: center;
-            color: white;
-            transform: rotateX(10deg);
-        }
-
-        h2 {
-            margin-bottom: 30px;
-            font-size: 2rem;
-            color: #fff;
-            text-shadow: 0 0 10px #00c6ff, 0 0 20px #00c6ff;
-        }
-
-        input {
-            width: 100%;
-            padding: 14px 18px;
-            margin: 12px 0;
-            border: none;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.15);
-            color: white;
-            font-size: 1rem;
-            box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
-            transition: 0.2s;
-        }
-
-        input:focus {
-            outline: none;
-            background: rgba(255, 255, 255, 0.25);
-            box-shadow: 0 0 10px #00c6ff;
-        }
-
-        input::placeholder {
-            color: #ccc;
-        }
-
-        button {
-            margin-top: 20px;
-            width: 100%;
-            padding: 14px;
-            border: none;
-            border-radius: 10px;
-            background: linear-gradient(145deg, #00c6ff, #0072ff);
-            color: white;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 0 20px rgba(0, 198, 255, 0.4), 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        button:hover {
-            transform: translateY(-3px) scale(1.03);
-            box-shadow: 0 0 25px #00c6ff, 0 0 40px #0072ff;
-        }
-
-        .error {
-            margin-top: 15px;
-            color: #ff6666;
-            font-size: 0.95rem;
-        }
-
-        @media (max-width: 480px) {
-            .login-container {
-                padding: 35px 20px;
-            }
-
-            h2 {
-                font-size: 1.6rem;
-            }
-        }
-    </style>
+    <title>Painel Financeiro | Redes Sociais</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <div class="login-container">
-        <h2>Bem-vindo ao Painel</h2>
-        <input type="text" id="usuario" placeholder="Usuário (Administrador)" />
-        <input type="password" id="senha" placeholder="Senha" />
-        <button onclick="logar()">Entrar</button>
-        <div id="erro" class="error"></div>
+    <div id="login" class="login-screen">
+        <h2>🔐 Acesso ao Painel</h2>
+        <input type="text" id="userName" placeholder="Usuário" />
+        <input type="password" id="password" placeholder="Senha" />
+        <button onclick="entrar()">Entrar</button>
+        <p id="erroLogin" class="erro"></p>
     </div>
 
-    <script>
-        function logar() {
-            const user = document.getElementById("usuario").value.trim().toLowerCase();
-            const senha = document.getElementById("senha").value;
+    <div id="painel" style="display:none;">
+        <header>
+            <h1>Painel Financeiro - Grupo Castelão</h1>
+            <button id="toggle-dark">🌙 Modo Escuro</button>
+        </header>
+        <p id="dataAtualizacao" style="text-align:center; font-size:14px; margin-top: -10px; margin-bottom: 20px; color: #fb0404;"></p>
 
-            if (user === "administrador" && senha === "2025") {
-                window.location.href = "painel.html";
-            } else {
-                document.getElementById("erro").textContent = "Usuário ou senha incorretos!";
-            }
-        }
-    </script>
+        <div id="empresas"></div>
+        <div id="total-geral" class="total-geral"></div>
+    </div>
 
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
