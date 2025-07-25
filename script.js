@@ -10,6 +10,7 @@ function formatarValor(valor) {
 }
 
 function carregarPainel() {
+    document.getElementById("dataAtualizacao").textContent = `Última atualização: ${ultimaAtualizacao}`;
     dadosEmpresas.forEach(empresa => {
         const div = document.createElement('div');
         div.className = 'empresa';
