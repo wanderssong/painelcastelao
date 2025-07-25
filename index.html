@@ -4,15 +4,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Painel Financeiro | Grupo Castelão</title>
+    <title>Painel Financeiro | Redes Sociais</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <h1>Painel Financeiro - Redes Sociais</h1>
+    <div id="login" class="login-screen">
+        <h2>🔐 Acesso ao Painel</h2>
+        <input type="text" id="userName" placeholder="Usuário" />
+        <input type="password" id="password" placeholder="Senha" />
+        <button onclick="entrar()">Entrar</button>
+        <p id="erroLogin" class="erro"></p>
+    </div>
 
-    <div id="empresas">
-        <!-- Empresas serão carregadas aqui -->
+    <div id="painel" style="display:none;">
+        <header>
+            <h1>Painel Financeiro - Redes Sociais</h1>
+            <button id="toggle-dark">🌙 Modo Escuro</button>
+        </header>
+
+        <div id="empresas"></div>
+        <div id="total-geral" class="total-geral"></div>
     </div>
 
     <script src="dados.js"></script>
