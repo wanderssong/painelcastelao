@@ -9,6 +9,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
+    color: white;
 }
 
 .empresa {
@@ -124,12 +125,126 @@ header {
 }
 
 .resumo-financeiro {
-  margin-top: 10px;
-  padding: 8px;
-  background-color: #f3f3f3;
-  border-radius: 8px;
-  font-weight: bold;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    font-weight: bold;
 }
+
 .resumo-financeiro div {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+/* NOVO FUNDO ANIMADO 3D PARA LOGIN */
+body.login-mode {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 400% 400%;
+    animation: gradientShift 10s ease infinite;
+}
+
+/* FUNDO COM GRADIENTE SUAVE */
+
+
+/* NOVO LOGIN COM EFEITO 3D CONTÍNUO */
+.login-screen {
+    width: 320px;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow:
+        0 0 20px rgba(0, 255, 255, 0.2),
+        0 0 40px rgba(0, 255, 255, 0.1),
+        0 0 60px rgba(0, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    text-align: center;
+    animation: floatCard 6s ease-in-out infinite;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    opacity: 0;
+    animation: fadeInLogin 1s ease forwards, floatCard 10s ease-in-out infinite;
+}
+
+/* ANIMAÇÃO ENTRADA */
+@keyframes fadeInLogin {
+    0% {
+        transform: scale(0.8) rotateX(20deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+/* ANIMAÇÃO FLUTUAÇÃO 3D */
+@keyframes floatCard {
+
+    0%,
+    100% {
+        transform: rotateY(-3deg) rotateX(3deg);
+    }
+
+    50% {
+        transform: rotateY(3deg) rotateX(-3deg);
+    }
+}
+
+.login-screen h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: cyan;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+/* INPUT E BOTÃO ESTILO FUTURISTA */
+.login-screen input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 2px solid cyan;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.login-screen input::placeholder {
+    color: #ccc;
+}
+
+.login-screen input:focus {
+    border-bottom-color: #00ffff;
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.login-screen button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: cyan;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px cyan;
+}
+
+.login-screen button:hover {
+    background: #00e6e6;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00e6e6, 0 0 30px #00e6e6;
+}
+
+.erro {
+    color: #ff4c4c;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
