@@ -122,3 +122,14 @@ header {
     align-items: center;
     margin-bottom: 30px;
 }
+
+.resumo-financeiro {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.resumo-financeiro div {
+  margin-bottom: 4px;
+}
