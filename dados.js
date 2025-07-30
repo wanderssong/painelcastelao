@@ -25,11 +25,13 @@ const dadosEmpresas = [
     {
         nome: "NORTÃO QUITANDA",
         depositos: [
-            { data: "07-07-2025", valor: 1000 }
+            { data: "07-07-2025", valor: 1000 },
+
         ],
         gastos: [
             { data: "25-07-2025", valor: 578.07, descricao: "Campanhas Ads" },
-            { data: "28-07-2025", valor: 140.00, descricao: "Campanhas Ads" }
+            { data: "28-07-2025", valor: 140.00, descricao: "Campanhas Ads" },
+            { data: "30-07-2025", valor: 156.00, descricao: "Campanhas Ads" }
         ]
     },
     {
