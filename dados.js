@@ -27,8 +27,8 @@ const dadosEmpresas = [
     {
         nome: "NORTÃO QUITANDA",
         depositos: [
-            { data: "07-07-2025", valor: 1.000 },
-            { data: "07-07-2025", valor: 1.200 }
+            { data: "07-07-2025", valor: 1000 },
+            { data: "07-07-2025", valor: 1200 }
 
         ],
         gastos: [
