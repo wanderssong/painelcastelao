@@ -43,7 +43,8 @@ const dadosEmpresas = [
         ],
         gastos: [
             { data: "25-07-2025", valor: 560.91, descricao: "Campanhas Ads" },
-            { data: "28-07-2025", valor: 115.00, descricao: "Campanhas Ads" }
+            { data: "28-07-2025", valor: 115.00, descricao: "Campanhas Ads" },
+            { data: "30-07-2025", valor: 95.00, descricao: "Campanhas Ads" },
         ]
     }
 ];
