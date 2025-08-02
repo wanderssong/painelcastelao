@@ -54,8 +54,8 @@ const dadosEmpresas = [
             { data: "28-07-2025", valor: 115.00, descricao: "Campanhas Ads" },
             { data: "30-07-2025", valor: 95.00, descricao: "Campanhas Ads" },
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
-            { data: "02-08-2025", valor: 90.00, descricao: "Frango Assado" }
+            { data: "02-08-2025", valor: 90.00, descricao: "Frango Assado" },
+            { data: "02-08-2025", valor: 225.00, descricao: "Sorteio dos Pais" },
         ]
     }
 ];
-
