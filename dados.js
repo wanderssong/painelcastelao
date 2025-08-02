@@ -10,7 +10,9 @@ const dadosEmpresas = [
             { data: "25-07-2025", valor: 670.81, descricao: "Campanhas" },
             { data: "28-07-2025", valor: 100.00, descricao: "Campanhas" },
             { data: "30-07-2025", valor: 100.00, descricao: "Campanhas" },
-            { data: "31-07-2025", valor: 80.00, descricao: "Final de semana" }
+            { data: "31-07-2025", valor: 80.00, descricao: "Final de semana" },
+            { data: "02-08-2025", valor: 30.00, descricao: "Final de semana" },
+
         ]
     },
     {
@@ -23,7 +25,7 @@ const dadosEmpresas = [
             { data: "25-07-2025", valor: 933.65, descricao: "Campanhas Ads" },
             { data: "28-07-2025", valor: 120.00, descricao: "Campanhas Padaria" },
             { data: "30-07-2025", valor: 90.00, descricao: "Campanhas Pais" },
-            { data: "31-07-2025", valor: 120.00, descricao: "Sorteio pais" },
+            { data: "02-08-2025", valor: 140.00, descricao: "Sorteio pais" },
         ]
     },
     {
@@ -52,6 +54,7 @@ const dadosEmpresas = [
             { data: "28-07-2025", valor: 115.00, descricao: "Campanhas Ads" },
             { data: "30-07-2025", valor: 95.00, descricao: "Campanhas Ads" },
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
+            { data: "02-08-2025", valor: 90.00, descricao: "Frango Assado" }
         ]
     }
 ];
