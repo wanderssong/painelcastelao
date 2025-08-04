@@ -14,6 +14,7 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 80.00, descricao: "Final de semana" },
             { data: "02-08-2025", valor: 30.00, descricao: "Final de semana" },
             { data: "04-08-2025", valor: 100.00, descricao: "Campanhas Ads" },
+            { data: "04-08-2025", valor: 100.00, descricao: "Dia dos Pais" },
 
         ]
     },
