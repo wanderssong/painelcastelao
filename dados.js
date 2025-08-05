@@ -46,6 +46,7 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 98.30, descricao: "Quinta verde" },
             { data: "31-07-2025", valor: 60.00, descricao: "Banana nanica" },
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
+            { data: "05-08-2025", valor: 100.00, descricao: "Terca verde" },
         ]
     },
     {
