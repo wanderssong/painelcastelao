@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "05/08/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "06/08/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -30,6 +30,7 @@ const dadosEmpresas = [
             { data: "30-07-2025", valor: 90.00, descricao: "Campanhas Pais" },
             { data: "02-08-2025", valor: 140.00, descricao: "Sorteio pais" },
             { data: "05-08-2025", valor: 110.00, descricao: "Campanhas" },
+            { data: "06-08-2025", valor: 90.00, descricao: "Sorteio Pais" },
         ]
     },
     {
@@ -62,6 +63,7 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
             { data: "02-08-2025", valor: 90.00, descricao: "Frango Assado" },
             { data: "02-08-2025", valor: 225.00, descricao: "Sorteio dos Pais" },
+            
         ]
     }
 ];
