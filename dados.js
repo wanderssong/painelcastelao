@@ -65,6 +65,7 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
             { data: "02-08-2025", valor: 90.00, descricao: "Frango Assado" },
             { data: "02-08-2025", valor: 225.00, descricao: "Sorteio dos Pais" },
+            { data: "07-08-2025", valor: 80.00, descricao: "Oferta carnes" },
             
         ]
     }
