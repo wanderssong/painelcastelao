@@ -15,8 +15,9 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 80.00, descricao: "Final de semana" },
             { data: "02-08-2025", valor: 30.00, descricao: "Final de semana" },
             { data: "04-08-2025", valor: 100.00, descricao: "Campanhas Ads" },
-            { data: "04-08-2025", valor: 100.00, descricao: "Dia dos Pais" },
+            { data: "04-08-2025", valor: 130.00, descricao: "Dia dos Pais" },
             { data: "07-08-2025", valor: 140.00, descricao: "Betoneira" },
+            { data: "08-08-2025", valor: 35.00, descricao: "Vaga Emprego" },
 
         ]
     },
@@ -35,6 +36,7 @@ const dadosEmpresas = [
             { data: "06-08-2025", valor: 90.00, descricao: "Sorteio Pais" },
             { data: "07-08-2025", valor: 50.00, descricao: "Esquenta Pais" },
             { data: "07-08-2025", valor: 80.00, descricao: "Padaria" },
+            { data: "08-08-2025", valor: 65.00, descricao: "Dia dos Pais" },
         ]
     },
     {
@@ -53,6 +55,7 @@ const dadosEmpresas = [
             { data: "31-07-2025", valor: 80.00, descricao: "Campanhas Ads" },
             { data: "05-08-2025", valor: 100.00, descricao: "Terca verde" },
             { data: "07-08-2025", valor: 50.00, descricao: "Esquenta Pais" },
+            { data: "08-08-2025", valor: 65.00, descricao: "Dia dos Pais" },
         ]
     },
     {
