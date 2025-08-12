@@ -19,6 +19,7 @@ const dadosEmpresas = [
             { data: "07-08-2025", valor: 140.00, descricao: "Betoneira" },
             { data: "08-08-2025", valor: 55.00, descricao: "Vaga Emprego" },
             { data: "11-08-2025", valor: 100.00, descricao: "Carrinho de mão" },
+            { data: "12-08-2025", valor: 90.00, descricao: "Ofertas vedacit" },
 
         ]
     },
