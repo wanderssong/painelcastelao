@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "12/08/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "13/08/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -16,10 +16,11 @@ const dadosEmpresas = [
             { data: "02-08-2025", valor: 30.00, descricao: "Final de semana" },
             { data: "04-08-2025", valor: 100.00, descricao: "Campanhas Ads" },
             { data: "04-08-2025", valor: 130.00, descricao: "Dia dos Pais" },
-            { data: "07-08-2025", valor: 140.00, descricao: "Betoneira" },
+            { data: "07-08-2025", valor: 140.00, descricao: "Betoneira Diaria" },
             { data: "08-08-2025", valor: 55.00, descricao: "Vaga Emprego" },
             { data: "11-08-2025", valor: 100.00, descricao: "Carrinho de mão" },
             { data: "12-08-2025", valor: 90.00, descricao: "Ofertas vedacit" },
+            { data: "13-08-2025", valor: 70.00, descricao: "Betoneira Mes" },
 
         ]
     },
@@ -41,6 +42,7 @@ const dadosEmpresas = [
             { data: "08-08-2025", valor: 65.00, descricao: "Dia dos Pais" },
             { data: "08-08-2025", valor: 65.00, descricao: "Dia dos Pais Horti F" },
             { data: "12-08-2025", valor: 95.00, descricao: "Atacado" },
+            { data: "13-08-2025", valor: 90.00, descricao: "Quarta da Carne" },
         ]
     },
     {
