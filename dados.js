@@ -22,6 +22,7 @@ const dadosEmpresas = [
             { data: "12-08-2025", valor: 90.00, descricao: "Ofertas vedacit" },
             { data: "13-08-2025", valor: 70.00, descricao: "Betoneira Mes" },
             { data: "13-08-2025", valor: 70.00, descricao: "Vaga Emprego" },
+            { data: "14-08-2025", valor: 95.00, descricao: "Aluguel FDS" },
 
         ]
     },
