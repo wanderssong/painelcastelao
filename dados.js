@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "14/08/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "15/08/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -83,6 +83,7 @@ const dadosEmpresas = [
             { data: "07-08-2025", valor: 80.00, descricao: "Oferta carnes" },
             { data: "08-08-2025", valor: 90.00, descricao: "Costela Sabado" },
             { data: "14-08-2025", valor: 100.00, descricao: "Reserva corte" },
+            { data: "15-08-2025", valor: 75.00, descricao: "Reserva frango" },
             
         ]
     }
