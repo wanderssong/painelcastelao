@@ -45,6 +45,7 @@ const dadosEmpresas = [
             { data: "08-08-2025", valor: 65.00, descricao: "Dia dos Pais Horti F" },
             { data: "12-08-2025", valor: 95.00, descricao: "Atacado" },
             { data: "13-08-2025", valor: 90.00, descricao: "Quarta da Carne" },
+            { data: "15-08-2025", valor: 60.00, descricao: "Oferta Cerv." },
         ]
     },
     {
