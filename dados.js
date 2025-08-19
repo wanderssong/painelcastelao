@@ -23,6 +23,7 @@ const dadosEmpresas = [
             { data: "13-08-2025", valor: 70.00, descricao: "Betoneira Mes" },
             { data: "13-08-2025", valor: 70.00, descricao: "Vaga Emprego" },
             { data: "14-08-2025", valor: 95.00, descricao: "Aluguel FDS" },
+            { data: "19-08-2025", valor: 100.00, descricao: "Aluguel Betoneira" },
 
         ]
     },
@@ -89,6 +90,7 @@ const dadosEmpresas = [
             { data: "08-08-2025", valor: 90.00, descricao: "Costela Sabado" },
             { data: "14-08-2025", valor: 100.00, descricao: "Reserva corte" },
             { data: "15-08-2025", valor: 75.00, descricao: "Reserva frango" },
+            { data: "19-08-2025", valor: 50.00, descricao: "Horario atend" },
             
         ]
     }
