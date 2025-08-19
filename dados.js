@@ -71,6 +71,7 @@ const dadosEmpresas = [
             { data: "12-08-2025", valor: 95.00, descricao: "Atacado" },
             { data: "19-08-2025", valor: 100.00, descricao: "Oferta semana" },
             { data: "19-08-2025", valor: 80.00, descricao: "Agua de coco" },
+            { data: "19-08-2025", valor: 50.00, descricao: "video Quitanda" },
         ]
     },
     {
