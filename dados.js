@@ -47,6 +47,7 @@ const dadosEmpresas = [
             { data: "13-08-2025", valor: 90.00, descricao: "Quarta da Carne" },
             { data: "15-08-2025", valor: 60.00, descricao: "Oferta Cerv." },
             { data: "19-08-2025", valor: 90.00, descricao: "Oferta Sema." },
+            { data: "19-08-2025", valor: 80.00, descricao: "Agua de coco" },
         ]
     },
     {
