@@ -32,6 +32,7 @@ const dadosEmpresas = [
         depositos: [
             { data: "07-07-2025", valor: 1000 },
             { data: "25-07-2025", valor: 1250 },
+            { data: "19-08-2025", valor: 1200 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 933.65, descricao: "Campanhas Ads" },
