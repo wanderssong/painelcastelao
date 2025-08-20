@@ -24,6 +24,7 @@ const dadosEmpresas = [
             { data: "13-08-2025", valor: 70.00, descricao: "Vaga Emprego" },
             { data: "14-08-2025", valor: 95.00, descricao: "Aluguel FDS" },
             { data: "19-08-2025", valor: 100.00, descricao: "Aluguel Betoneira" },
+            { data: "20-08-2025", valor: 50.00, descricao: "Encarte Completo" },
 
         ]
     },
