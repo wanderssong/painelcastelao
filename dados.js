@@ -53,6 +53,7 @@ const dadosEmpresas = [
             { data: "19-08-2025", valor: 90.00, descricao: "Oferta Sema." },
             { data: "19-08-2025", valor: 80.00, descricao: "Agua de coco" },
             { data: "20-08-2025", valor: 40.00, descricao: "Quarta do Açougue" },
+            { data: "21-08-2025", valor: 70.00, descricao: "Dia de feira" },
         ]
     },
     {
@@ -77,6 +78,7 @@ const dadosEmpresas = [
             { data: "19-08-2025", valor: 80.00, descricao: "Agua de coco" },
             { data: "19-08-2025", valor: 50.00, descricao: "video Quitanda" },
             { data: "21-08-2025", valor: 1.12, descricao: "Pastor" },
+            { data: "21-08-2025", valor: 70.00, descricao: "Dia de Feira" },
         ]
     },
     {
