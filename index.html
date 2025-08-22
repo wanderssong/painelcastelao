@@ -25,6 +25,46 @@
         <p id="dataAtualizacao"
             style="text-align:center; font-size:14px; margin-top: -10px; margin-bottom: 20px; color: #fffefe;"></p>
 
+        <!-- Controles globais -->
+        <div class="toolbar">
+            <div class="filters">
+                <label>
+                    Mês
+                    <select id="filtroMes">
+                        <option value="">Todos</option>
+                        <option value="01">Jan</option>
+                        <option value="02">Fev</option>
+                        <option value="03">Mar</option>
+                        <option value="04">Abr</option>
+                        <option value="05">Mai</option>
+                        <option value="06">Jun</option>
+                        <option value="07">Jul</option>
+                        <option value="08">Ago</option>
+                        <option value="09">Set</option>
+                        <option value="10">Out</option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dez</option>
+                    </select>
+                </label>
+                <label>
+                    Ano
+                    <input id="filtroAno" type="text" placeholder="2025" inputmode="numeric" maxlength="4">
+                </label>
+                <label class="grow">
+                    Buscar descrição
+                    <input id="filtroBusca" type="text" placeholder="Ex.: padaria, anúncios, encarte">
+                </label>
+            </div>
+
+            <div class="toggles">
+                <label><input type="checkbox" id="toggleDepositos" checked> Depósitos</label>
+                <label><input type="checkbox" id="toggleGastos" checked> Gastos</label>
+            </div>
+        </div>
+
+        <!-- Resumo fixo -->
+        <div id="resumoSticky" class="resumo-sticky" aria-live="polite"></div>
+
         <div id="empresas"></div>
         <div id="total-geral" class="total-geral"></div>
     </div>
