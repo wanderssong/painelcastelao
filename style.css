@@ -248,3 +248,151 @@ body.login-mode {
     font-size: 0.9em;
     margin-top: 10px;
 }
+
+/* Barra de filtros */
+.toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: grid;
+    gap: 10px;
+}
+
+.dark-mode .toolbar {
+    background: rgba(18, 18, 18, 0.7);
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 180px)) 1fr;
+    gap: 10px;
+    align-items: end;
+}
+
+.filters label {
+    display: grid;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.filters input,
+.filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.dark-mode .filters input,
+.dark-mode .filters select {
+    background: #1e1e1e;
+    color: #ddd;
+    border-color: #333;
+}
+
+.filters .grow {
+    grid-column: span 1;
+}
+
+@media(max-width:700px) {
+    .filters {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filters .grow {
+        grid-column: span 2;
+    }
+}
+
+.toggles {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Resumo fixo */
+.resumo-sticky {
+    position: sticky;
+    top: 82px;
+    z-index: 4;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-weight: 700;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dark-mode .resumo-sticky {
+    background: #222;
+    color: #00ffcc;
+}
+
+/* Cabeçalho de mês dentro da tabela */
+.mes-header {
+    background: #f7f7f7;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.dark-mode .mes-header {
+    background: #171717;
+}
+
+/* Seções colapsáveis */
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section-head button {
+    border: none;
+    background: #007bff;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dark-mode .section-head button {
+    background: #333;
+    color: #ddd;
+}
+
+/* Botão ver mais */
+.ver-mais {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+    border: 1px dashed #999;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+.dark-mode .ver-mais {
+    background: #1b1b1b;
+    border-color: #444;
+    color: #ddd;
+}
+
+/* Tabela com sombra suave entre blocos */
+table {
+    border-radius: 8px;
+    overflow: hidden;
+}
