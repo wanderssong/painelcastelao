@@ -28,6 +28,7 @@ const dadosEmpresas = [
             { data: "20-08-2025", valor: 50.00, descricao: "Encarte Completo" },
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Compactador"},
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Andaime" },
+            { data: "26-08-2025", valor: 70.00, descricao: "Locação Andaime" },
 
         ]
     },
