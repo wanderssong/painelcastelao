@@ -111,6 +111,7 @@ const dadosEmpresas = [
             { data: "15-08-2025", valor: 75.00, descricao: "Reserva frango" },
             { data: "19-08-2025", valor: 50.00, descricao: "Horario atend" },
             { data: "20-08-2025", valor: 70.00, descricao: "Marm. Churras" },
+             { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
             
         ]
     }
