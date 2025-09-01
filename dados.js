@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "30/08/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "01/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -60,6 +60,7 @@ const dadosEmpresas = [
             { data: "26-08-2025", valor: 60.00, descricao: "Horti" },
             { data: "26-08-2025", valor: 70.00, descricao: "Terça e Quarta da carne" },
             { data: "29-08-2025", valor: 100.00, descricao: "Fecha mês" },
+            { data: "01-0-2025", valor: 90.00, descricao: "Segunda e terça da carne" },
         ]
     },
     {
@@ -67,7 +68,7 @@ const dadosEmpresas = [
         depositos: [
             { data: "07-07-2025", valor: 1000 },
             { data: "30-07-2025", valor: 1200 },
-             { data: "30-07-2025", valor: 1250 },
+             { data: "30-08-2025", valor: 1250 },
 
         ],
         gastos: [
@@ -111,7 +112,8 @@ const dadosEmpresas = [
             { data: "15-08-2025", valor: 75.00, descricao: "Reserva frango" },
             { data: "19-08-2025", valor: 50.00, descricao: "Horario atend" },
             { data: "20-08-2025", valor: 70.00, descricao: "Marm. Churras" },
-             { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
+            { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
+            { data: "31-08-2025", valor: 120.00, descricao: "Sorteio independencia" },
             
         ]
     }
