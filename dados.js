@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "02/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "04/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -29,6 +29,7 @@ const dadosEmpresas = [
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Compactador"},
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Andaime" },
             { data: "26-08-2025", valor: 70.00, descricao: "Locação Andaime" },
+            { data: "04-04-2025", valor: 70.00, descricao: "Locação Andaime" },
 
         ]
     },
@@ -62,6 +63,7 @@ const dadosEmpresas = [
             { data: "29-08-2025", valor: 100.00, descricao: "Fecha mês" },
             { data: "01-09-2025", valor: 90.00, descricao: "Segunda e terça da carne" },
             { data: "02-09-2025", valor: 100.00, descricao: "Atacado" },
+            { data: "04-09-2025", valor: 80.00, descricao: "OFERTAS" },
         ]
     },
     {
@@ -93,6 +95,7 @@ const dadosEmpresas = [
             { data: "29-08-2025", valor: 100.00, descricao: "Fecha mês" },
             { data: "30-08-2025", valor: 80.00, descricao: "Produtos Coloniais" },
             { data: "02-09-2025", valor: 100.00, descricao: "Atacado" },
+            { data: "04-09-2025", valor: 80.00, descricao: "OFERTAS" },
         ]
     },
     {
@@ -116,6 +119,7 @@ const dadosEmpresas = [
             { data: "20-08-2025", valor: 70.00, descricao: "Marm. Churras" },
             { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
             { data: "31-08-2025", valor: 120.00, descricao: "Sorteio independencia" },
+            { data: "04-09-2025", valor: 60.00, descricao: "Video APRE" },
             
         ]
     }
