@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "04/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "05/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -30,6 +30,7 @@ const dadosEmpresas = [
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Andaime" },
             { data: "26-08-2025", valor: 70.00, descricao: "Locação Andaime" },
             { data: "04-04-2025", valor: 70.00, descricao: "Locação Andaime" },
+            { data: "05-04-2025", valor: 60.00, descricao: "video castelão" },
 
         ]
     },
@@ -102,7 +103,8 @@ const dadosEmpresas = [
         nome: "VARANDA ESPETARIA",
         depositos: [
             { data: "15-07-2025", valor: 1000 },
-            { data: "30-07-2025", valor: 1000 }
+            { data: "30-07-2025", valor: 1000 },
+            { data: "04-09-2025", valor: 1050 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 560.91, descricao: "Campanhas Ads" },
@@ -120,6 +122,7 @@ const dadosEmpresas = [
             { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
             { data: "31-08-2025", valor: 120.00, descricao: "Sorteio independencia" },
             { data: "04-09-2025", valor: 60.00, descricao: "Video APRE" },
+            
             
         ]
     }
