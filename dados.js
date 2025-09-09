@@ -29,8 +29,9 @@ const dadosEmpresas = [
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Compactador"},
             { data: "22-08-2025", valor: 60.00, descricao: "Campanha Andaime" },
             { data: "26-08-2025", valor: 70.00, descricao: "Locação Andaime" },
-            { data: "04-04-2025", valor: 70.00, descricao: "Locação Andaime" },
-            { data: "05-04-2025", valor: 60.00, descricao: "video castelão" },
+            { data: "04-09-2025", valor: 70.00, descricao: "Locação Andaime" },
+            { data: "05-09-2025", valor: 60.00, descricao: "video castelão" },
+            { data: "09-09-2025", valor: 90.00, descricao: "Aluguel wpp BETONEIRA" },
 
         ]
     },
