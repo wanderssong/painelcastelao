@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "09/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "13/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -68,6 +68,8 @@ const dadosEmpresas = [
             { data: "04-09-2025", valor: 80.00, descricao: "OFERTAS" },
             { data: "09-09-2025", valor: 60.00, descricao: "OFERTAS HORTI" },
             { data: "09-09-2025", valor: 70.00, descricao: "OFERTAS ATACADO" },
+            { data: "11-09-2025", valor: 70.00, descricao: "OFERTAS ARRASA" },
+            { data: "12-09-2025", valor: 70.00, descricao: "FINAL DE SEMANA" },
         ]
     },
     {
@@ -102,6 +104,8 @@ const dadosEmpresas = [
             { data: "04-09-2025", valor: 80.00, descricao: "OFERTAS" },
             { data: "09-09-2025", valor: 60.00, descricao: "OFERTAS HORTI" },
             { data: "09-09-2025", valor: 70.00, descricao: "OFERTAS ATACADO" },
+            { data: "11-09-2025", valor: 70.00, descricao: "OFERTAS HORTI" },
+            { data: "13-09-2025", valor: 70.00, descricao: "QUITANDA/CASTELÃO" },
         ]
     },
     {
@@ -127,6 +131,7 @@ const dadosEmpresas = [
             { data: "31-08-2025", valor: 100.00, descricao: "Comercial" },
             { data: "31-08-2025", valor: 120.00, descricao: "Sorteio independencia" },
             { data: "04-09-2025", valor: 60.00, descricao: "Video APRE" },
+            { data: "13-09-2025", valor: 70.00, descricao: "FRANGO E CARNES FDS" },
             
             
         ]
