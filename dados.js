@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "16/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "17/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -74,6 +74,7 @@ const dadosEmpresas = [
             { data: "11-09-2025", valor: 70.00, descricao: "OFERTAS ARRASA" },
             { data: "12-09-2025", valor: 70.00, descricao: "FINAL DE SEMANA" },
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
+            { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
         ]
     },
     {
@@ -112,6 +113,7 @@ const dadosEmpresas = [
             { data: "11-09-2025", valor: 70.00, descricao: "OFERTAS HORTI" },
             { data: "13-09-2025", valor: 70.00, descricao: "QUITANDA/CASTELÃO" },
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
+            { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
            
 
         ]
