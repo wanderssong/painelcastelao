@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "17/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "18/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -33,6 +33,7 @@ const dadosEmpresas = [
             { data: "05-09-2025", valor: 60.00, descricao: "video castelão" },
             { data: "09-09-2025", valor: 90.00, descricao: "Aluguel wpp BETONEIRA" },
             { data: "16-09-2025", valor: 90.00, descricao: "Aluguel wpp container" },
+            { data: "18-09-2025", valor: 90.00, descricao: "Aluguel betoneira" },
 
         ]
     },
@@ -75,6 +76,7 @@ const dadosEmpresas = [
             { data: "12-09-2025", valor: 70.00, descricao: "FINAL DE SEMANA" },
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
             { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
+            { data: "18-09-2025", valor: 60.00, descricao: "banana nanica" },
         ]
     },
     {
@@ -114,6 +116,7 @@ const dadosEmpresas = [
             { data: "13-09-2025", valor: 70.00, descricao: "QUITANDA/CASTELÃO" },
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
             { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
+            { data: "18-09-2025", valor: 60.00, descricao: "banana nanica" },
            
 
         ]
