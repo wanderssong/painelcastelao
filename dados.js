@@ -77,6 +77,7 @@ const dadosEmpresas = [
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
             { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
             { data: "18-09-2025", valor: 60.00, descricao: "banana nanica" },
+            { data: "19-09-2025", valor: 90.00, descricao: "Oferta relampago" },
         ]
     },
     {
@@ -117,6 +118,7 @@ const dadosEmpresas = [
             { data: "16-09-2025", valor: 70.00, descricao: "ATACADO" },
             { data: "17-09-2025", valor: 90.00, descricao: "OFERTAS SEMANA" },
             { data: "18-09-2025", valor: 60.00, descricao: "banana nanica" },
+            { data: "19-09-2025", valor: 80.00, descricao: "oferta relampago" },
            
 
         ]
@@ -145,6 +147,7 @@ const dadosEmpresas = [
             { data: "31-08-2025", valor: 120.00, descricao: "Sorteio independencia" },
             { data: "04-09-2025", valor: 60.00, descricao: "Video APRE" },
             { data: "13-09-2025", valor: 70.00, descricao: "FRANGO E CARNES FDS" },
+            { data: "19-09-2025", valor: 90.00, descricao: "video de degustação" },
             
             
         ]
