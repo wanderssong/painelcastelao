@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "23/09/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "26/09/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -7,6 +7,7 @@ const dadosEmpresas = [
             { data: "02-08-2025", valor: 500 },
             { data: "07-08-2025", valor: 500 },
             { data: "21-08-2025", valor: 1000 },
+            { data: "26-09-2025", valor: 1000 },
             
         ],
         gastos: [
@@ -34,6 +35,8 @@ const dadosEmpresas = [
             { data: "09-09-2025", valor: 90.00, descricao: "Aluguel wpp BETONEIRA" },
             { data: "16-09-2025", valor: 90.00, descricao: "Aluguel wpp container" },
             { data: "18-09-2025", valor: 90.00, descricao: "Aluguel betoneira" },
+            { data: "26-09-2025", valor: 90.00, descricao: "Aluguel andaime" },
+            { data: "26-09-2025", valor: 70.00, descricao: "GOOGLE ADS" },
 
         ]
     },
@@ -82,6 +85,7 @@ const dadosEmpresas = [
             { data: "23-09-2025", valor: 70.00, descricao: "Oferta horti" },
             { data: "23-09-2025", valor: 100.00, descricao: "Oferta atacado" },
             { data: "23-09-2025", valor: 70.00, descricao: "Oferta semana" },
+            { data: "26-09-2025", valor: 70.00, descricao: "Oferta fds" },
         ]
     },
     {
@@ -125,6 +129,7 @@ const dadosEmpresas = [
             { data: "19-09-2025", valor: 80.00, descricao: "oferta relampago" },
             { data: "23-09-2025", valor: 100.00, descricao: "Oferta atacado" },
             { data: "23-09-2025", valor: 70.00, descricao: "Oferta horti" },
+            { data: "26-09-2025", valor: 70.00, descricao: "Oferta fds" },
            
 
         ]
@@ -154,6 +159,7 @@ const dadosEmpresas = [
             { data: "04-09-2025", valor: 60.00, descricao: "Video APRE" },
             { data: "13-09-2025", valor: 70.00, descricao: "FRANGO E CARNES FDS" },
             { data: "19-09-2025", valor: 90.00, descricao: "video de degustação" },
+            { data: "26-09-2025", valor: 50.00, descricao: "video de sabado" },
             
             
         ]
