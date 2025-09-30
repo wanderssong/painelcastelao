@@ -89,6 +89,7 @@ const dadosEmpresas = [
             { data: "23-09-2025", valor: 70.00, descricao: "Oferta semana" },
             { data: "26-09-2025", valor: 70.00, descricao: "Oferta fds" },
             { data: "29-09-2025", valor: 90.00, descricao: "FECHA MES HORT" },
+            { data: "30-09-2025", valor: 40.00, descricao: "DIA DO PASTEL" },
         ]
     },
     {
