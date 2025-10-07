@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "01/10/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "07/10/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -92,6 +92,7 @@ const dadosEmpresas = [
             { data: "29-09-2025", valor: 90.00, descricao: "FECHA MES HORT" },
             { data: "30-09-2025", valor: 40.00, descricao: "DIA DO PASTEL" },
             { data: "01-10-2025", valor: 60.00, descricao: "OFERTA DO DIA" },
+            { data: "07-10-2025", valor: 100.00, descricao: "ATACADO" },
         ]
     },
     {
@@ -138,6 +139,8 @@ const dadosEmpresas = [
             { data: "26-09-2025", valor: 70.00, descricao: "Oferta fds" },
             { data: "29-09-2025", valor: 90.00, descricao: "FECHA MES HORT" },
             { data: "01-10-2025", valor: 60.00, descricao: "OFERTA DO DIA" },
+            { data: "03-10-2025", valor: 70.00, descricao: "OFERTA DO DIA" },
+            { data: "07-10-2025", valor: 100.00, descricao: "ATACADO" },
            
 
         ]
@@ -169,6 +172,7 @@ const dadosEmpresas = [
             { data: "19-09-2025", valor: 90.00, descricao: "video de degustação" },
             { data: "26-09-2025", valor: 50.00, descricao: "video de sabado" },
             { data: "01-10-2025", valor: 60.00, descricao: "FAÇA RESERVA" },
+            { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" },
             
             
         ]
