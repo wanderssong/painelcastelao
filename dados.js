@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "08/10/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "10/10/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -94,6 +94,7 @@ const dadosEmpresas = [
             { data: "30-09-2025", valor: 40.00, descricao: "DIA DO PASTEL" },
             { data: "01-10-2025", valor: 60.00, descricao: "OFERTA DO DIA" },
             { data: "07-10-2025", valor: 100.00, descricao: "ATACADO" },
+            { data: "10-10-2025", valor: 70.00, descricao: "OFERTA CRIANÇAS" },
         ]
     },
     {
@@ -101,7 +102,9 @@ const dadosEmpresas = [
         depositos: [
             { data: "07-07-2025", valor: 1000 },
             { data: "30-07-2025", valor: 1200 },
-             { data: "30-08-2025", valor: 1250 },
+            { data: "30-08-2025", valor: 1250 },
+            { data: "30-08-2025", valor: 1250 },
+            { data: "07-10-2025", valor: 1500 },
 
         ],
         gastos: [
@@ -142,6 +145,7 @@ const dadosEmpresas = [
             { data: "01-10-2025", valor: 60.00, descricao: "OFERTA DO DIA" },
             { data: "03-10-2025", valor: 70.00, descricao: "OFERTA DO DIA" },
             { data: "07-10-2025", valor: 100.00, descricao: "ATACADO" },
+            { data: "09-10-2025", valor: 80.00, descricao: "OFERTAS HORTI" },
            
 
         ]
