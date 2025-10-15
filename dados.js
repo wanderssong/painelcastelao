@@ -105,8 +105,7 @@ const dadosEmpresas = [
         depositos: [
             { data: "07-07-2025", valor: 1000 },
             { data: "30-07-2025", valor: 1200 },
-            { data: "30-08-2025", valor: 1250 },
-            { data: "30-08-2025", valor: 1250 },
+            { data: "30-08-2025", valor: 1250 },           
             { data: "07-10-2025", valor: 1500 },
 
         ],
