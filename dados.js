@@ -158,6 +158,7 @@ const dadosEmpresas = [
             { data: "17-10-2025", valor: 100.00, descricao: "APP ATACADO" },
             { data: "18-10-2025", valor: 50.00, descricao: "OFERTAS FDS" },
             { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " },
+            { data: "24-10-2025", valor: 100.00, descricao: "CASTELAO FRUT " },
             
            
 
