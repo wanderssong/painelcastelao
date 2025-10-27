@@ -195,5 +195,17 @@ const dadosEmpresas = [
             
             
         ]
+    },
+
+    {
+        nome: "CASTELÃO FRUT",
+        depositos: [
+            { data: "15-07-2025", valor: 1000 },
+            
+        ],
+        gastos: [
+            { data: "25-07-2025", valor: 10.00, descricao: "Campanhas Ads" },                      
+            
+        ]
     }
 ];
