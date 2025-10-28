@@ -1,9 +1,10 @@
-// == Base atual preservada e expandida ==
+// == Base com filtro por empresa ==
 const empresasDiv = document.getElementById('empresas');
 const totalGeralDiv = document.getElementById('total-geral');
 
 const filtroMesEl = document.getElementById('filtroMes');
 const filtroAnoEl = document.getElementById('filtroAno');
+const filtroEmpresaEl = document.getElementById('filtroEmpresa');
 const filtroBuscaEl = document.getElementById('filtroBusca');
 const toggleDepositosEl = document.getElementById('toggleDepositos');
 const toggleGastosEl = document.getElementById('toggleGastos');
@@ -41,7 +42,7 @@ function descricaoMatches(desc) {
 }
 
 function agruparPorMes(gastosFiltrados) {
-  // retorna [{mesKey:"2025-08", label:"Ago/2025", itens:[...]}]
+  // retorna [{mesKey:"2025-08", label:"08/2025", itens:[...]}]
   const meses = new Map();
   gastosFiltrados.forEach(g => {
     const [dd, mm, yyyy] = g.data.split('-');
@@ -135,7 +136,6 @@ function renderEmpresa(empresa) {
     let count = 0;
 
     grupos.forEach(grp => {
-      // inserir cabeçalho de mês somente se houver pelo menos um item dentro do limite
       const itensGrupo = [];
       for (const g of grp.itens) {
         if (count >= limite) break;
@@ -153,7 +153,6 @@ function renderEmpresa(empresa) {
       ${rows.join('')}
     `;
 
-    // botão ver mais
     verMaisBtn.style.display = (gastosFiltrados.length > count) ? 'block' : 'none';
   }
 
@@ -203,6 +202,20 @@ function renderEmpresa(empresa) {
   return { div, totalGastos, totalDepositos };
 }
 
+// popular dropdown de empresas
+function popularFiltroEmpresa() {
+  filtroEmpresaEl.innerHTML = `<option value="">Todas</option>`;
+  const nomes = [...dadosEmpresas]
+    .map(e => e.nome)
+    .sort((a, b) => a.localeCompare(b));
+  nomes.forEach(nome => {
+    const opt = document.createElement('option');
+    opt.value = nome;
+    opt.textContent = nome;
+    filtroEmpresaEl.appendChild(opt);
+  });
+}
+
 function carregarPainel() {
   document.getElementById("dataAtualizacao").textContent = `Última atualização: ${ultimaAtualizacao}`;
   totalGeralGastos = 0;
@@ -213,14 +226,21 @@ function carregarPainel() {
   let somaGastosFiltro = 0;
   let somaDepositosFiltro = 0;
 
+  const empresaSelecionada = (filtroEmpresaEl.value || '').trim();
+
+  let lista = [...dadosEmpresas];
+  if (empresaSelecionada) {
+    lista = lista.filter(e => e.nome === empresaSelecionada);
+  }
+
   // ordena empresas por nome para leitura consistente
-  const lista = [...dadosEmpresas].sort((a, b) => a.nome.localeCompare(b.nome));
+  lista.sort((a, b) => a.nome.localeCompare(b.nome));
 
   lista.forEach(empresa => {
     const { div, totalGastos, totalDepositos } = renderEmpresa(empresa);
     somaGastosFiltro += totalGastos;
     somaDepositosFiltro += totalDepositos;
-    totalGeralGastos += totalGastos; // mantém compatibilidade com seu total geral
+    totalGeralGastos += totalGastos;
     frag.appendChild(div);
   });
 
@@ -239,10 +259,10 @@ function entrar() {
   if (user === "administrador" && pass === "2025") {
     document.getElementById("login").style.display = "none";
     document.getElementById("painel").style.display = "block";
-    // preferencia de tema
     if (localStorage.getItem('theme') === 'dark') {
       document.body.classList.add('dark-mode');
     }
+    popularFiltroEmpresa();
     carregarPainel();
   } else {
     erro.textContent = "Usuário ou senha incorretos.";
@@ -256,9 +276,9 @@ document.getElementById('toggle-dark').addEventListener('click', () => {
 });
 
 // ---- Reagir aos filtros globais ----
-[filtroMesEl, filtroAnoEl, filtroBuscaEl].forEach(el => {
-  el.addEventListener('input', () => {
-    // resetar paginação de todas as empresas ao aplicar filtros
+[filtroMesEl, filtroAnoEl, filtroBuscaEl, filtroEmpresaEl].forEach(el => {
+  const evt = (el === filtroBuscaEl || el === filtroAnoEl) ? 'input' : 'change';
+  el.addEventListener(evt, () => {
     statePaginacao.clear();
     carregarPainel();
   });
