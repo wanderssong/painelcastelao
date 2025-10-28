@@ -41,7 +41,7 @@ const dadosEmpresas = [
             { data: "10-10-2025", valor: 100.00, descricao: "BETONEIRA" },
             { data: "16-10-2025", valor: 100.00, descricao: "ANDAIMES" },
             { data: "21-10-2025", valor: 90.00, descricao: "PROMOÇÃO ANDAIMES" },
-            { data: "28-10-2025", valor: 764.65, descricao: "PROMOÇÃO ANDAIMES" }
+            { data: "28-10-2025", valor: 764.65, descricao: "Videos pastorS" }
         ]
     },
     {
