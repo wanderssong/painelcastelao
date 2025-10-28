@@ -72,9 +72,10 @@ td {
 
 /* ======== LOGIN ======== */
 .login-screen {
-    width: 320px;
-    margin: 120px auto;
-    padding: 30px;
+    width: 100%;
+    max-width: 320px;
+    margin: 100px auto;
+    padding: 25px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.06);
     box-shadow:
@@ -88,17 +89,18 @@ td {
     transform-style: preserve-3d;
     perspective: 1000px;
     opacity: 0;
+    box-sizing: border-box;
 }
 
 .login-screen h2 {
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     color: cyan;
     text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
 }
 
 .login-screen input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     background: rgba(255, 255, 255, 0.1);
@@ -107,6 +109,7 @@ td {
     color: #fff;
     border-radius: 5px;
     transition: 0.3s;
+    box-sizing: border-box;
 }
 
 .login-screen input::placeholder {
@@ -121,8 +124,8 @@ td {
 
 .login-screen button {
     width: 100%;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 12px;
+    margin-top: 12px;
     background: cyan;
     border: none;
     border-radius: 8px;
@@ -167,6 +170,30 @@ td {
 
     50% {
         transform: rotateY(3deg) rotateX(-3deg);
+    }
+}
+
+/* ======== LOGIN MOBILE ======== */
+@media(max-width:600px) {
+    .login-screen {
+        width: 90%;
+        margin: 80px auto;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow:
+            0 0 15px rgba(0, 255, 255, 0.15),
+            0 0 25px rgba(0, 255, 255, 0.1);
+        animation: fadeInLogin 1s ease forwards;
+        transform: none;
+    }
+
+    .login-screen h2 {
+        font-size: 1.3em;
+    }
+
+    .login-screen input,
+    .login-screen button {
+        font-size: 0.95em;
     }
 }
 
@@ -364,7 +391,7 @@ header {
     color: #ddd;
 }
 
-/* ======== RESPONSIVIDADE ======== */
+/* ======== RESPONSIVIDADE GERAL ======== */
 @media(max-width:700px) {
     body {
         padding: 10px;
