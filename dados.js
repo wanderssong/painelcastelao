@@ -191,6 +191,7 @@ const dadosEmpresas = [
             { data: "26-09-2025", valor: 50.00, descricao: "video de sabado" },
             { data: "01-10-2025", valor: 60.00, descricao: "FAÇA RESERVA" },
             { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" },
+            { data: "29-10-2025", valor: 90.00, descricao: "COMBOS" },
         ]
     },
     {
