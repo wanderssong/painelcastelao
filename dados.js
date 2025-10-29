@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "28/10/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "29/10/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -7,7 +7,8 @@ const dadosEmpresas = [
             { data: "02-08-2025", valor: 500 },
             { data: "07-08-2025", valor: 500 },
             { data: "21-08-2025", valor: 1000 },
-            { data: "26-09-2025", valor: 1000 }
+            { data: "26-09-2025", valor: 1000 },
+            { data: "29-10-2025", valor: 1000 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 670.81, descricao: "Campanhas" },
@@ -41,7 +42,9 @@ const dadosEmpresas = [
             { data: "10-10-2025", valor: 100.00, descricao: "BETONEIRA" },
             { data: "16-10-2025", valor: 100.00, descricao: "ANDAIMES" },
             { data: "21-10-2025", valor: 90.00, descricao: "PROMOÇÃO ANDAIMES" },
-            { data: "28-10-2025", valor: 764.65, descricao: "Videos pastorS" }
+            { data: "28-10-2025", valor: 764.65, descricao: "Videos pastor" },
+            { data: "29-10-2025", valor: 90.00, descricao: "Andaimes" },
+            { data: "29-10-2025", valor: 90.00, descricao: "Compactadores" },
         ]
     },
     {
@@ -99,7 +102,9 @@ const dadosEmpresas = [
             { data: "14-10-2025", valor: 100.00, descricao: "ATACADO" },
             { data: "14-10-2025", valor: 70.00, descricao: "OFERTAS HORTI" },
             { data: "18-10-2025", valor: 50.00, descricao: "OFERTAS FDS" },
-            { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " }
+            { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " },
+            { data: "29-10-2025", valor: 90.00, descricao: "OFERTAS " },
+            { data: "29-10-2025", valor: 70.00, descricao: "Quarta verde " }
         ]
     },
     {
@@ -154,8 +159,9 @@ const dadosEmpresas = [
             { data: "17-10-2025", valor: 100.00, descricao: "APP ATACADO" },
             { data: "18-10-2025", valor: 50.00, descricao: "OFERTAS FDS" },
             { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " },
-            { data: "24-10-2025", valor: 100.00, descricao: "CASTELAO FRUT " }
-        ]
+            { data: "24-10-2025", valor: 100.00, descricao: "CASTELAO FRUT " },
+            { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde" },
+            { data: "29-10-2025", valor: 50.00, descricao: "APP ATACADO" },        ]
     },
     {
         nome: "VARANDA ESPETARIA",
@@ -184,7 +190,7 @@ const dadosEmpresas = [
             { data: "19-09-2025", valor: 90.00, descricao: "video de degustação" },
             { data: "26-09-2025", valor: 50.00, descricao: "video de sabado" },
             { data: "01-10-2025", valor: 60.00, descricao: "FAÇA RESERVA" },
-            { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" }
+            { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" },
         ]
     },
     {
@@ -193,7 +199,8 @@ const dadosEmpresas = [
             { data: "27-10-2025", valor: 1200 }
         ],
         gastos: [
-            { data: "28-10-2025", valor: 80.00, descricao: "Nova direção" }
+            { data: "28-10-2025", valor: 80.00, descricao: "Nova direção" },
+            { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde " }
         ]
     }
 ];
