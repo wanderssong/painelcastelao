@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "29/10/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "31/10/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -104,7 +104,8 @@ const dadosEmpresas = [
             { data: "18-10-2025", valor: 50.00, descricao: "OFERTAS FDS" },
             { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " },
             { data: "29-10-2025", valor: 90.00, descricao: "OFERTAS " },
-            { data: "29-10-2025", valor: 70.00, descricao: "Quarta verde " }
+            { data: "29-10-2025", valor: 70.00, descricao: "Quarta verde " },
+            { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
         ]
     },
     {
@@ -161,7 +162,8 @@ const dadosEmpresas = [
             { data: "22-10-2025", valor: 70.00, descricao: "OFERTAS " },
             { data: "24-10-2025", valor: 100.00, descricao: "CASTELAO FRUT " },
             { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde" },
-            { data: "29-10-2025", valor: 50.00, descricao: "APP ATACADO" },        ]
+            { data: "29-10-2025", valor: 50.00, descricao: "APP ATACADO" },
+            { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },        ]
     },
     {
         nome: "VARANDA ESPETARIA",
@@ -201,7 +203,8 @@ const dadosEmpresas = [
         ],
         gastos: [
             { data: "28-10-2025", valor: 80.00, descricao: "Nova direção" },
-            { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde " }
+            { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde " },
+            { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
         ]
     }
 ];
