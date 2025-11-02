@@ -205,6 +205,7 @@ const dadosEmpresas = [
             { data: "28-10-2025", valor: 80.00, descricao: "Nova direção" },
             { data: "29-10-2025", valor: 90.00, descricao: "Quarta verde " },
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
+            { data: "31-10-2025", valor: 60.00, descricao: "Video apresentação" },
         ]
     }
 ];
