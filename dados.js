@@ -214,7 +214,7 @@ const dadosEmpresas = [
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
             { data: "31-10-2025", valor: 60.00, descricao: "Video apresentação" },
             { data: "03-11-2025", valor: 50.00, descricao: "Oferta horti " },
-            { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
+            { data: "04-11-2025", valor: 90.00, descricao: "ATACADO " },
         ]
     }
 ];
