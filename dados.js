@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "03/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "04/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -45,6 +45,7 @@ const dadosEmpresas = [
             { data: "28-10-2025", valor: 764.65, descricao: "Videos pastor" },
             { data: "29-10-2025", valor: 90.00, descricao: "Andaimes" },
             { data: "29-10-2025", valor: 90.00, descricao: "Compactadores" },
+            { data: "04-11-2025", valor: 90.00, descricao: "Andaimes WPP" },
         ]
     },
     {
@@ -53,7 +54,8 @@ const dadosEmpresas = [
             { data: "07-07-2025", valor: 1000 },
             { data: "25-07-2025", valor: 1250 },
             { data: "19-08-2025", valor: 1200 },
-            { data: "23-09-2025", valor: 1250 }
+            { data: "23-09-2025", valor: 1250 },
+            { data: "04-11-2025", valor: 1250 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 933.65, descricao: "Campanhas Ads" },
@@ -107,6 +109,7 @@ const dadosEmpresas = [
             { data: "29-10-2025", valor: 70.00, descricao: "Quarta verde " },
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
             { data: "03-11-2025", valor: 30.00, descricao: "Oferta horti " },
+            { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
         ]
     },
     {
@@ -166,6 +169,7 @@ const dadosEmpresas = [
             { data: "29-10-2025", valor: 50.00, descricao: "APP ATACADO" },
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " }, 
             { data: "03-11-2025", valor: 50.00, descricao: "Oferta horti " },
+            { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
         ]
     },
     {
@@ -210,6 +214,7 @@ const dadosEmpresas = [
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
             { data: "31-10-2025", valor: 60.00, descricao: "Video apresentação" },
             { data: "03-11-2025", valor: 50.00, descricao: "Oferta horti " },
+            { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
         ]
     }
 ];
