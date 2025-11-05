@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "04/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "05/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -110,6 +110,7 @@ const dadosEmpresas = [
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " },
             { data: "03-11-2025", valor: 30.00, descricao: "Oferta horti " },
             { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
+            { data: "05-11-2025", valor: 50.00, descricao: "QUARTA DA CARNE " },
         ]
     },
     {
@@ -170,6 +171,7 @@ const dadosEmpresas = [
             { data: "31-10-2025", valor: 70.00, descricao: "Fecha mês " }, 
             { data: "03-11-2025", valor: 50.00, descricao: "Oferta horti " },
             { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
+            { data: "05-11-2025", valor: 60.00, descricao: "FRANGO CAIPIRA " },
         ]
     },
     {
@@ -201,6 +203,7 @@ const dadosEmpresas = [
             { data: "01-10-2025", valor: 60.00, descricao: "FAÇA RESERVA" },
             { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" },
             { data: "29-10-2025", valor: 90.00, descricao: "COMBOS" },
+            { data: "05-11-2025", valor: 80.00, descricao: "sorteio COMBO" },
         ]
     },
     {
