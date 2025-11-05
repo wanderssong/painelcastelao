@@ -111,6 +111,7 @@ const dadosEmpresas = [
             { data: "03-11-2025", valor: 30.00, descricao: "Oferta horti " },
             { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
             { data: "05-11-2025", valor: 50.00, descricao: "QUARTA DA CARNE " },
+            { data: "05-11-2025", valor: 80.00, descricao: "CESTA BASICA " },
         ]
     },
     {
