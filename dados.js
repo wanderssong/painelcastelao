@@ -46,6 +46,7 @@ const dadosEmpresas = [
             { data: "29-10-2025", valor: 90.00, descricao: "Andaimes" },
             { data: "29-10-2025", valor: 90.00, descricao: "Compactadores" },
             { data: "04-11-2025", valor: 90.00, descricao: "Andaimes WPP" },
+            { data: "06-11-2025", valor: 90.00, descricao: "Aluguel equipamentos WPP" },
         ]
     },
     {
