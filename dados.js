@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "12/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "17/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -48,6 +48,7 @@ const dadosEmpresas = [
             { data: "04-11-2025", valor: 90.00, descricao: "Andaimes WPP" },
             { data: "06-11-2025", valor: 90.00, descricao: "Aluguel equipamentos WPP" },
             { data: "10-11-2025", valor: 100.00, descricao: "BLACK" },
+            { data: "12-11-2025", valor: 90.00, descricao: "BETONEIRA" },
         ]
     },
     {
@@ -116,6 +117,8 @@ const dadosEmpresas = [
             { data: "05-11-2025", valor: 80.00, descricao: "CESTA BASICA " },
             { data: "12-11-2025", valor: 50.00, descricao: "QUARTA VERDE " },
             { data: "12-11-2025", valor: 50.00, descricao: "QUARTA DA CARNE " },
+            { data: "17-11-2025", valor: 100.00, descricao: "CESTA NATALINA " },
+            { data: "17-11-2025", valor: 100.00, descricao: "VIDEO CESTA NATALINA " },
         ]
     },
     {
@@ -178,6 +181,7 @@ const dadosEmpresas = [
             { data: "04-11-2025", valor: 70.00, descricao: "ATACADO " },
             { data: "05-11-2025", valor: 60.00, descricao: "FRANGO CAIPIRA " },
             { data: "12-11-2025", valor: 50.00, descricao: "QUARTA VERDE " },
+            { data: "17-11-2025", valor: 100.00, descricao: "CESTA NATALINA " },
         ]
     },
     {
@@ -227,6 +231,7 @@ const dadosEmpresas = [
             { data: "06-11-2025", valor: 90.00, descricao: "VIDEO ATACADO " },
             { data: "11-11-2025", valor: 90.00, descricao: "PRODUTOS COLONIAIS " },
             { data: "12-11-2025", valor: 50.00, descricao: "QUARTA VERDE " },
+            { data: "17-11-2025", valor: 100.00, descricao: "CESTA NATALINA " },
         ]
     }
 ];
