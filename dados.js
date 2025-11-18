@@ -236,6 +236,7 @@ const dadosEmpresas = [
             { data: "12-11-2025", valor: 50.00, descricao: "QUARTA VERDE " },
             { data: "17-11-2025", valor: 100.00, descricao: "CESTA NATALINA " },
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
+            { data: "18-11-2025", valor: 80.00, descricao: "LEITE CAIPIRA " },
         ]
     }
 ];
