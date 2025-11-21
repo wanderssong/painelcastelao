@@ -121,6 +121,7 @@ const dadosEmpresas = [
             { data: "17-11-2025", valor: 100.00, descricao: "VIDEO CESTA NATALINA " },
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA DA CARNE " },
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
+            { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
         ]
     },
     {
@@ -129,7 +130,8 @@ const dadosEmpresas = [
             { data: "07-07-2025", valor: 1000 },
             { data: "30-07-2025", valor: 1200 },
             { data: "30-08-2025", valor: 1250 },
-            { data: "07-10-2025", valor: 1500 }
+            { data: "07-10-2025", valor: 1500 },
+            { data: "21-11-2025", valor: 3000 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 578.07, descricao: "Campanhas Ads" },
@@ -187,6 +189,7 @@ const dadosEmpresas = [
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "21-11-2025", valor: 100.00, descricao: "CAMPANHA INAUGURAÇÃO STORY " },
             { data: "21-11-2025", valor: 100.00, descricao: "CAMPANHA INAUGURAÇÃO FEED" },
+            { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
         ]
     },
     {
@@ -239,6 +242,7 @@ const dadosEmpresas = [
             { data: "17-11-2025", valor: 100.00, descricao: "CESTA NATALINA " },
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "18-11-2025", valor: 80.00, descricao: "LEITE CAIPIRA " },
+            { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
         ]
     }
 ];
