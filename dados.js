@@ -122,6 +122,7 @@ const dadosEmpresas = [
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA DA CARNE " },
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
         ]
     },
     {
@@ -190,6 +191,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 100.00, descricao: "CAMPANHA INAUGURAÇÃO STORY " },
             { data: "21-11-2025", valor: 100.00, descricao: "CAMPANHA INAUGURAÇÃO FEED" },
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
         ]
     },
     {
@@ -243,6 +245,7 @@ const dadosEmpresas = [
             { data: "18-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "18-11-2025", valor: 80.00, descricao: "LEITE CAIPIRA " },
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
         ]
     }
 ];
