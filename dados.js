@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "21/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "22/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -49,6 +49,7 @@ const dadosEmpresas = [
             { data: "06-11-2025", valor: 90.00, descricao: "Aluguel equipamentos WPP" },
             { data: "10-11-2025", valor: 100.00, descricao: "BLACK" },
             { data: "12-11-2025", valor: 90.00, descricao: "BETONEIRA" },
+            { data: "22-11-2025", valor: 100.00, descricao: "VIDEO PROMO FECHA MES " },
         ]
     },
     {
@@ -192,6 +193,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 100.00, descricao: "CAMPANHA INAUGURAÇÃO FEED" },
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
+            { data: "22-11-2025", valor: 90.00, descricao: "Frutas Decoradas VIDEO " },
         ]
     },
     {
