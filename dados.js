@@ -200,6 +200,7 @@ const dadosEmpresas = [
             { data: "22-11-2025", valor: 90.00, descricao: "Frutas Decoradas VIDEO " },
             { data: "24-11-2025", valor: 100.00, descricao: "Post Inauguração " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "24-11-2025", valor: 100.00, descricao: "MEGA SORTEIO " },
         ]
     },
     {
