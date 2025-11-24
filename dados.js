@@ -232,6 +232,7 @@ const dadosEmpresas = [
             { data: "06-10-2025", valor: 90.00, descricao: "Sorteio" },
             { data: "29-10-2025", valor: 90.00, descricao: "COMBOS" },
             { data: "05-11-2025", valor: 80.00, descricao: "sorteio COMBO" },
+            { data: "24-11-2025", valor: 100.00, descricao: "video fachada varanda" },
         ]
     },
     {
