@@ -50,6 +50,9 @@ const dadosEmpresas = [
             { data: "10-11-2025", valor: 100.00, descricao: "BLACK" },
             { data: "12-11-2025", valor: 90.00, descricao: "BETONEIRA" },
             { data: "22-11-2025", valor: 100.00, descricao: "VIDEO PROMO FECHA MES " },
+            { data: "24-11-2025", valor: 100.00, descricao: "ANDAIME " },
+            { data: "24-11-2025", valor: 90.00, descricao: "ALISADOR " },
+            
         ]
     },
     {
