@@ -128,6 +128,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
         ]
     },
     {
@@ -202,6 +203,8 @@ const dadosEmpresas = [
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "24-11-2025", valor: 100.00, descricao: "MEGA SORTEIO " },
             { data: "25-11-2025", valor: 80.00, descricao: "VAGA DE EMPREGO " },
+            { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
+            { data: "25-11-2025", valor: 100.00, descricao: "Video Inauguração " },
         ]
     },
     {
@@ -258,6 +261,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
         ]
     }
 ];
