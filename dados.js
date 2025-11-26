@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "25/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "26/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -51,7 +51,7 @@ const dadosEmpresas = [
             { data: "12-11-2025", valor: 90.00, descricao: "BETONEIRA" },
             { data: "22-11-2025", valor: 100.00, descricao: "VIDEO PROMO FECHA MES " },
             { data: "24-11-2025", valor: 100.00, descricao: "ANDAIME " },
-            { data: "24-11-2025", valor: 90.00, descricao: "ALISADOR " },
+            { data: "24-11-2025", valor: 99.00, descricao: "ALISADOR " },
             
         ]
     },
@@ -205,6 +205,7 @@ const dadosEmpresas = [
             { data: "25-11-2025", valor: 80.00, descricao: "VAGA DE EMPREGO " },
             { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "25-11-2025", valor: 100.00, descricao: "Video Inauguração " },
+            { data: "26-11-2025", valor: 100.00, descricao: "Video Inauguração GABY " },
         ]
     },
     {
