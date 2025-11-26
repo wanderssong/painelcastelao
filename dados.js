@@ -244,7 +244,9 @@ const dadosEmpresas = [
     {
         nome: "CASTELÃO FRUT",
         depositos: [
-            { data: "27-10-2025", valor: 1200 }
+            { data: "27-10-2025", valor: 1200 },
+            { data: "25-11-2025", valor: 1200 },
+
         ],
         gastos: [
             { data: "28-10-2025", valor: 80.00, descricao: "Nova direção" },
