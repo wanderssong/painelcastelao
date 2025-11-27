@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "26/11/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "27/11/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -129,6 +129,8 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
+            { data: "27-11-2025", valor: 90.00, descricao: "SOBREMESAS " },
+            { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
         ]
     },
     {
@@ -206,6 +208,7 @@ const dadosEmpresas = [
             { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "25-11-2025", valor: 100.00, descricao: "Video Inauguração " },
             { data: "26-11-2025", valor: 100.00, descricao: "Video Inauguração GABY " },
+            { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
         ]
     },
     {
@@ -264,6 +267,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             
         ]
     }
