@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "01/12/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "02/12/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -145,6 +145,7 @@ const dadosEmpresas = [
             { data: "30-08-2025", valor: 1250 },
             { data: "07-10-2025", valor: 1500 },
             { data: "21-11-2025", valor: 3000 },
+            { data: "02-11-2025", valor: 500 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 578.07, descricao: "Campanhas Ads" },
@@ -217,6 +218,10 @@ const dadosEmpresas = [
             { data: "28-11-2025", valor: 100.00, descricao: "inauguração story" },
             { data: "01-12-2025", valor: 100.00, descricao: "inauguração POST" },
             { data: "01-12-2025", valor: 100.00, descricao: "inauguração VIDEO" },
+            { data: "02-12-2025", valor: 100.00, descricao: "inauguração VIDEO" },
+            { data: "02-12-2025", valor: 100.00, descricao: "inauguração post" },
+            { data: "02-12-2025", valor: 100.00, descricao: "inauguração post" },
+            { data: "02-12-2025", valor: 100.00, descricao: "inauguração post" },
         ]
     },
     {
