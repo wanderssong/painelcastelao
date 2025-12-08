@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "05/12/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "08/12/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -56,6 +56,7 @@ const dadosEmpresas = [
             { data: "27-11-2025", valor: 90.00, descricao: "FECHA MES " },
             { data: "27-11-2025", valor: 90.00, descricao: "CONTAINER " },
             { data: "27-11-2025", valor: 90.00, descricao: "ANDAIME " },
+            { data: "08-12-2025", valor: 90.00, descricao: "CONTAINER " },
             
         ]
     },
