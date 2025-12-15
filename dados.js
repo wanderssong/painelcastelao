@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "11/12/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "15/12/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -59,6 +59,7 @@ const dadosEmpresas = [
             { data: "08-12-2025", valor: 90.00, descricao: "CONTAINER " },
             { data: "11-12-2025", valor: 90.00, descricao: "REPAROS " },
             { data: "11-12-2025", valor: 90.00, descricao: "FINAL DE SEMANA " },
+            { data: "15-12-2025", valor: 100.00, descricao: "BETONEIRA" },
             
         ]
     },
@@ -151,6 +152,7 @@ const dadosEmpresas = [
             { data: "02-12-2025", valor: 500 },
             { data: "03-12-2025", valor: 250 },
             { data: "09-12-2025", valor: 270 },
+            { data: "15-12-2025", valor: 300 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 578.07, descricao: "Campanhas Ads" },
@@ -235,6 +237,8 @@ const dadosEmpresas = [
             { data: "10-12-2025", valor: 90.00, descricao: "OFERTA" },
             { data: "10-12-2025", valor: 90.00, descricao: "OFERTA" },
             { data: "10-12-2025", valor: 90.00, descricao: "OFERTA" },
+            { data: "15-12-2025", valor: 90.00, descricao: "AÇOUGUE" },
+            { data: "15-12-2025", valor: 90.00, descricao: "BUFFET" },
         ]
     },
     {
@@ -275,6 +279,7 @@ const dadosEmpresas = [
         depositos: [
             { data: "27-10-2025", valor: 1200 },
             { data: "25-11-2025", valor: 1200 },
+            { data: "12-12-2025", valor: 300 },
 
         ],
         gastos: [
@@ -294,6 +299,7 @@ const dadosEmpresas = [
             { data: "21-11-2025", valor: 90.00, descricao: "Frutas Decoradas " },
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "12-12-2025", valor: 100.00, descricao: "inauguração " },
             
         ]
     }
