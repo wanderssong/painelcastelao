@@ -1,4 +1,4 @@
-const ultimaAtualizacao = 26/12/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "02/01/2026"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
