@@ -62,6 +62,7 @@ const dadosEmpresas = [
             { data: "11-12-2025", valor: 90.00, descricao: "FINAL DE SEMANA " },
             { data: "15-12-2025", valor: 100.00, descricao: "BETONEIRA" },
             { data: "24-12-2025", valor: 100.00, descricao: "ALUGUEL EQUIPAMENTOS" },
+            { data: "02-01-2026", valor: 100.00, descricao: "BETONEIRA" },
             
         ]
     },
