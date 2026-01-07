@@ -309,6 +309,7 @@ const dadosEmpresas = [
             { data: "24-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "12-12-2025", valor: 100.00, descricao: "inauguração " },
+            { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS " },
             
         ]
     }
