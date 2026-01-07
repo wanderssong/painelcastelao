@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "02/01/2026"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "07/01/2026"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -11,6 +11,7 @@ const dadosEmpresas = [
             { data: "29-10-2025", valor: 1000 },
             { data: "01-12-2025", valor: 500 },
             { data: "24-12-2025", valor: 500 },
+            { data: "07-01-2026", valor: 500 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 670.81, descricao: "Campanhas" },
@@ -63,6 +64,8 @@ const dadosEmpresas = [
             { data: "15-12-2025", valor: 100.00, descricao: "BETONEIRA" },
             { data: "24-12-2025", valor: 100.00, descricao: "ALUGUEL EQUIPAMENTOS" },
             { data: "02-01-2026", valor: 100.00, descricao: "BETONEIRA" },
+            { data: "07-01-2026", valor: 100.00, descricao: "BETONEIRA" },
+            { data: "07-01-2026", valor: 100.00, descricao: "OFERTAS PROMOÇÃO" },
             
         ]
     },
@@ -142,10 +145,11 @@ const dadosEmpresas = [
             { data: "25-11-2025", valor: 80.00, descricao: "QUARTA VERDE " },
             { data: "27-11-2025", valor: 90.00, descricao: "SOBREMESAS " },
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
+            { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
         ]
     },
     {
-        nome: "NORTÃO QUITANDA",
+        nome: "MERCADO CASTELÃO",
         depositos: [
             { data: "07-07-2025", valor: 1000 },
             { data: "30-07-2025", valor: 1200 },
@@ -242,6 +246,7 @@ const dadosEmpresas = [
             { data: "10-12-2025", valor: 90.00, descricao: "OFERTA" },
             { data: "15-12-2025", valor: 90.00, descricao: "AÇOUGUE" },
             { data: "15-12-2025", valor: 90.00, descricao: "BUFFET" },
+            { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
         ]
     },
     {
