@@ -66,6 +66,7 @@ const dadosEmpresas = [
             { data: "02-01-2026", valor: 100.00, descricao: "BETONEIRA" },
             { data: "07-01-2026", valor: 100.00, descricao: "BETONEIRA" },
             { data: "07-01-2026", valor: 100.00, descricao: "OFERTAS PROMOÇÃO" },
+            { data: "07-01-2026", valor: 100.00, descricao: "ANDAIMES" },
             
         ]
     },
