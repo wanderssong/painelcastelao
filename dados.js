@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "20/01/2026"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "27/01/2026"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -68,6 +68,7 @@ const dadosEmpresas = [
             { data: "07-01-2026", valor: 100.00, descricao: "OFERTAS PROMOÇÃO" },
             { data: "07-01-2026", valor: 100.00, descricao: "ANDAIMES" },
             { data: "20-01-2026", valor: 100.00, descricao: "BETONEIRAS" },
+            { data: "27-01-2026", valor: 100.00, descricao: "FECHA MêS" },
             
         ]
     },
@@ -79,6 +80,7 @@ const dadosEmpresas = [
             { data: "19-08-2025", valor: 1200 },
             { data: "23-09-2025", valor: 1250 },
             { data: "04-11-2025", valor: 1250 },
+            { data: "26-01-2026", valor: 1000 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 933.65, descricao: "Campanhas Ads" },
@@ -148,6 +150,8 @@ const dadosEmpresas = [
             { data: "27-11-2025", valor: 90.00, descricao: "SOBREMESAS " },
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
+            { data: "27-01-2026", valor: 100.00, descricao: "TERÇA DA CARNE" },
+
         ]
     },
     {
@@ -162,6 +166,7 @@ const dadosEmpresas = [
             { data: "03-12-2025", valor: 250 },
             { data: "09-12-2025", valor: 270 },
             { data: "15-12-2025", valor: 300 },
+            { data: "26-01-2026", valor: 1000 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 578.07, descricao: "Campanhas Ads" },
@@ -249,6 +254,7 @@ const dadosEmpresas = [
             { data: "15-12-2025", valor: 90.00, descricao: "AÇOUGUE" },
             { data: "15-12-2025", valor: 90.00, descricao: "BUFFET" },
             { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
+            { data: "27-01-2026", valor: 100.00, descricao: "TERÇA DA CARNE" },
         ]
     },
     {
