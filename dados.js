@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "02/02/2026"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "03/02/2026"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "CASTELÃO LOCAÇÕES",
@@ -12,6 +12,7 @@ const dadosEmpresas = [
             { data: "01-12-2025", valor: 500 },
             { data: "24-12-2025", valor: 500 },
             { data: "07-01-2026", valor: 500 },
+            { data: "03-02-2026", valor: 500 },
         ],
         gastos: [
             { data: "25-07-2025", valor: 670.81, descricao: "Campanhas" },
@@ -154,6 +155,7 @@ const dadosEmpresas = [
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
             { data: "27-01-2026", valor: 100.00, descricao: "TERÇA DA CARNE" },
+            { data: "03-02-2026", valor: 90.00, descricao: "QUARTA DO HORTI" },
 
         ]
     },
@@ -258,6 +260,7 @@ const dadosEmpresas = [
             { data: "15-12-2025", valor: 90.00, descricao: "BUFFET" },
             { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS" },
             { data: "27-01-2026", valor: 100.00, descricao: "TERÇA DA CARNE" },
+            { data: "03-02-2026", valor: 90.00, descricao: "QUARTA DO HORTI" },
         ]
     },
     {
@@ -320,6 +323,7 @@ const dadosEmpresas = [
             { data: "27-11-2025", valor: 90.00, descricao: "CESTA NATALINA " },
             { data: "12-12-2025", valor: 100.00, descricao: "inauguração " },
             { data: "07-01-2026", valor: 600.00, descricao: "OFERTAS " },
+            { data: "03-02-2026", valor: 90.00, descricao: "QUARTA DO HORTI" },
             
         ]
     }
